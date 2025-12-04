@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-black text-white py-24">
-      <div className="flex justify-center items-center gap-60">
+      <div className="flex justify-center items-center gap-8 desktop:gap-60 max-minitab:flex-col">
         <div className="flex flex-col gap-6">
           <div className="border font-bold w-fit py-2 px-4 rounded-full text-lg">
             info@cuberto.com

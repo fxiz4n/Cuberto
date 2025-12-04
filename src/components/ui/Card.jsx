@@ -23,9 +23,9 @@ const Card = (props) => {
       onMouseOut={() => {
         pauseVideo();
       }}
-      className="w-104 flex flex-col gap-6"
+      className="tab:w-104 flex flex-col gap-6"
     >
-      <div className="video w-full rounded-2xl overflow-hidden">
+      <div className="video w-[75vw] tab:w-full rounded-2xl overflow-hidden">
         <video
           className="h-full w-full object-cover"
           src={props.video}

@@ -58,10 +58,10 @@ const leftGrid = [
 
 const Projects = () => {
   return (
-    <div className="bg-[#161616] text-white rounded-t-[4rem] pb-24">
-      <h1 className="text-6xl font-semibold pl-48 pt-48">Featured Projects</h1>
-      <div className="flex justify-between px-48 py-24">
-        <div className="left-grid flex flex-col gap-24">
+    <div className="bg-[#161616] text-white rounded-t-3xl tab:rounded-t-[4rem] pb-24">
+      <h1 className="text-6xl font-semibold pt-16 max-desktop:pb-16 pl-12 tab:pl-26 tab:pt-24 xl:pl-48 xl:pt-48">Featured Projects</h1>
+      <div className="flex desktop:justify-around justify-center items-center p-12 xl:px-48 desktop:py-12">
+        <div className="left-grid flex flex-col gap-12 tab:gap-24">
           {leftGrid.map((item, index) => (
             <Card
               key={index}
@@ -73,7 +73,7 @@ const Projects = () => {
             />
           ))}
         </div>
-        <div className="right-grid mt-48 flex flex-col gap-24">
+        <div className="right-grid mt-60 flex flex-col gap-24 max-desktop:hidden">
           {rightGrid.map((item, index) => (
             <Card
               key={index}

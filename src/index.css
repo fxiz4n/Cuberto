@@ -4,3 +4,22 @@
     font-family: main;
     src: url("/mainfont.woff2");
 }
+
+
+@theme {
+  --breakpoint-mobile: 450px;
+  --breakpoint-minitab: 640px;
+  --breakpoint-tab: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+video{
+  pointer-events: none;
+}
